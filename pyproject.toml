@@ -1,0 +1,30 @@
+[project]
+name = "composeenvcheck"
+version = "0.1.0"
+description = "Validate docker‑compose.yml environment variables against a .env file."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "OpenAI", email = "noreply@openai.com" }]
+classifiers = ["Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License", "Operating System :: OS Independent"]
+
+[project.license]
+file = "LICENSE"
+
+[project.scripts]
+composeenvcheck = "composeenvcheck.main:main"
+
+[project.urls]
+Repository = "https://github.com/ScobieWorks/composeenvcheck"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool]
+
+[tool.setuptools]
+
+[tool.setuptools.packages]
+
+[tool.setuptools.packages.find]
+where = ["src"]
