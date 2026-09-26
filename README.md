@@ -45,6 +45,8 @@ composeenvcheck --generate-template --compose docker-compose.yml --output .env.e
 MIT License
 
 
+<!-- ORION-MONETIZATION:START -->
 ## Support
 
-If this project saved you time, optional support is welcome: https://paypal.me/Damonwill
+Donate to support continued maintenance: https://paypal.me/Damonwill
+<!-- ORION-MONETIZATION:END -->
